@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CC106 Web Project</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+      <div class="nav-container">
+        <a href="#home" class="nav-logo">CC106</a>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <p class="hero-greeting">Hello, I am</p>
+        <h1 class="hero-name">Nathaniel Rodrigueza</h1>
+        <p class="hero-tagline">Web Developer &amp; Student</p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">View My Work</a>
+          <a href="#contact" class="btn btn-outline">Contact Me</a>
+        </div>
+      </div>
+      <div class="hero-shape"></div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-grid">
+          <div class="about-image">
+            <div class="image-placeholder">
+              <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <circle cx="50" cy="35" r="20" fill="#a78bfa"/>
+                <ellipse cx="50" cy="80" rx="30" ry="20" fill="#a78bfa"/>
+              </svg>
+            </div>
+          </div>
+          <div class="about-text">
+            <h3>Who am I?</h3>
+            <p>
+              I am a Computer Science student enrolled in CC106 — Introduction to Web
+              Development. I am passionate about building clean, accessible, and responsive
+              websites using HTML, CSS, and JavaScript.
+            </p>
+            <p>
+              This project showcases what I have learned throughout the course, including
+              semantic HTML structure, modern CSS layouts, and interactive JavaScript features.
+            </p>
+            <div class="about-stats">
+              <div class="stat">
+                <span class="stat-number" data-target="10">0</span>
+                <span class="stat-label">Projects</span>
+              </div>
+              <div class="stat">
+                <span class="stat-number" data-target="3">0</span>
+                <span class="stat-label">Years of Study</span>
+              </div>
+              <div class="stat">
+                <span class="stat-number" data-target="5">0</span>
+                <span class="stat-label">Technologies</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section section-alt" id="skills">
+      <div class="container">
+        <h2 class="section-title">Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <div class="skill-icon">&#60;/&#62;</div>
+            <h3>HTML5</h3>
+            <p>Semantic markup, accessibility, and structured document design.</p>
+            <div class="skill-bar">
+              <div class="skill-fill" data-width="90"></div>
+            </div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">&#35;</div>
+            <h3>CSS3</h3>
+            <p>Flexbox, Grid, animations, and responsive design with media queries.</p>
+            <div class="skill-bar">
+              <div class="skill-fill" data-width="85"></div>
+            </div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">JS</div>
+            <h3>JavaScript</h3>
+            <p>DOM manipulation, event handling, and dynamic page interactions.</p>
+            <div class="skill-bar">
+              <div class="skill-fill" data-width="75"></div>
+            </div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">&#128241;</div>
+            <h3>Responsive Design</h3>
+            <p>Mobile-first layouts that work across all screen sizes and devices.</p>
+            <div class="skill-bar">
+              <div class="skill-fill" data-width="80"></div>
+            </div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">&#9881;</div>
+            <h3>Git &amp; GitHub</h3>
+            <p>Version control, branching, and collaborative development workflows.</p>
+            <div class="skill-bar">
+              <div class="skill-fill" data-width="70"></div>
+            </div>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">&#128196;</div>
+            <h3>UI/UX Basics</h3>
+            <p>Wireframing, colour theory, typography, and user-centred design principles.</p>
+            <div class="skill-bar">
+              <div class="skill-fill" data-width="65"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section" id="projects">
+      <div class="container">
+        <h2 class="section-title">Projects</h2>
+        <div class="filter-buttons">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="html">HTML/CSS</button>
+          <button class="filter-btn" data-filter="js">JavaScript</button>
+        </div>
+        <div class="projects-grid" id="projectsGrid">
+          <div class="project-card" data-category="html">
+            <div class="project-thumb project-thumb-1">
+              <span>Landing Page</span>
+            </div>
+            <div class="project-info">
+              <h3>Product Landing Page</h3>
+              <p>A responsive landing page for a fictional product, built with HTML5 and CSS3 Grid.</p>
+              <div class="project-tags">
+                <span class="tag">HTML5</span>
+                <span class="tag">CSS3</span>
+              </div>
+            </div>
+          </div>
+          <div class="project-card" data-category="js">
+            <div class="project-thumb project-thumb-2">
+              <span>To-Do App</span>
+            </div>
+            <div class="project-info">
+              <h3>To-Do List App</h3>
+              <p>A dynamic to-do list with add, complete, and delete functionality using JavaScript.</p>
+              <div class="project-tags">
+                <span class="tag">HTML5</span>
+                <span class="tag">CSS3</span>
+                <span class="tag">JavaScript</span>
+              </div>
+            </div>
+          </div>
+          <div class="project-card" data-category="html">
+            <div class="project-thumb project-thumb-3">
+              <span>Portfolio</span>
+            </div>
+            <div class="project-info">
+              <h3>Personal Portfolio</h3>
+              <p>This portfolio site — a multi-section responsive website with smooth scroll and animations.</p>
+              <div class="project-tags">
+                <span class="tag">HTML5</span>
+                <span class="tag">CSS3</span>
+                <span class="tag">JavaScript</span>
+              </div>
+            </div>
+          </div>
+          <div class="project-card" data-category="js">
+            <div class="project-thumb project-thumb-4">
+              <span>Quiz App</span>
+            </div>
+            <div class="project-info">
+              <h3>Interactive Quiz</h3>
+              <p>A multiple-choice quiz application with score tracking and a results screen.</p>
+              <div class="project-tags">
+                <span class="tag">JavaScript</span>
+                <span class="tag">DOM API</span>
+              </div>
+            </div>
+          </div>
+          <div class="project-card" data-category="html">
+            <div class="project-thumb project-thumb-5">
+              <span>Recipe Site</span>
+            </div>
+            <div class="project-info">
+              <h3>Recipe Website</h3>
+              <p>A responsive recipe website showcasing cards, modals, and CSS Flexbox layout.</p>
+              <div class="project-tags">
+                <span class="tag">HTML5</span>
+                <span class="tag">CSS3</span>
+              </div>
+            </div>
+          </div>
+          <div class="project-card" data-category="js">
+            <div class="project-thumb project-thumb-6">
+              <span>Calculator</span>
+            </div>
+            <div class="project-info">
+              <h3>JS Calculator</h3>
+              <p>A fully functional calculator with keyboard support built in vanilla JavaScript.</p>
+              <div class="project-tags">
+                <span class="tag">JavaScript</span>
+                <span class="tag">CSS3</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section section-alt" id="contact">
+      <div class="container">
+        <h2 class="section-title">Contact Me</h2>
+        <div class="contact-grid">
+          <div class="contact-info">
+            <h3>Get in Touch</h3>
+            <p>Have a question or want to collaborate? Feel free to send me a message!</p>
+            <ul class="contact-list">
+              <li>
+                <span class="contact-icon">&#9993;</span>
+                <span>n.rodrigueza1293@gmail.com</span>
+              </li>
+              <li>
+                <span class="contact-icon">&#128205;</span>
+                <span>Philippines</span>
+              </li>
+              <li>
+                <span class="contact-icon">&#128187;</span>
+                <span>github.com/BlueBerryCheeseCake006</span>
+              </li>
+            </ul>
+          </div>
+          <form class="contact-form" id="contactForm" novalidate>
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="Your name" required />
+              <span class="form-error" id="nameError"></span>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="your@email.com" required />
+              <span class="form-error" id="emailError"></span>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="Your message…" required></textarea>
+              <span class="form-error" id="messageError"></span>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+            <div class="form-success" id="formSuccess" hidden>
+              ✅ Thank you! Your message has been received.
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2026 Nathaniel Rodrigueza &mdash; CC106 Web Development Project</p>
+        <p class="footer-sub">Built with HTML, CSS &amp; JavaScript</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
