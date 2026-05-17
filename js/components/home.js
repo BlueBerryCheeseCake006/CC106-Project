@@ -85,8 +85,8 @@ export function createHomePage() {
                 <span>Qualified leads generated</span>
               </div>
               <div class="metric-card">
-                <strong>8,500+</strong>
-                <span>Audience growth achieved</span>
+                <strong>420%+</strong>
+                <span>Follower growth achieved</span>
               </div>
             </div>
           </div>
@@ -176,7 +176,7 @@ export function createHomePage() {
                 <div class="cs-preview-stats">
                   <div class="cs-preview-stat"><strong>300%</strong><span>Engagement</span></div>
                   <div class="cs-preview-stat"><strong>2,400+</strong><span>Leads</span></div>
-                  <div class="cs-preview-stat"><strong>8,500+</strong><span>Followers</span></div>
+                  <div class="cs-preview-stat"><strong>420%+</strong><span>Follower Growth</span></div>
                 </div>
               </div>
             </a>

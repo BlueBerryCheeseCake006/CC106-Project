@@ -2,6 +2,7 @@ import { createHeader } from "./components/header.js";
 import { initHeader } from "./components/header.js";
 import { createFooter } from "./components/footer.js";
 import { createServicesPage } from "./components/servicesPage.js";
+import { initServicesPage } from "./components/servicesPage.js";
 import { initBackToTop } from "./backToTop.js";
 
 const app = document.getElementById("app");
@@ -14,3 +15,4 @@ app.innerHTML = `
 
 initHeader();
 initBackToTop();
+initServicesPage();

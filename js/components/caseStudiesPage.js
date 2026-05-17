@@ -9,7 +9,7 @@ const cases = [
     problem: "Low engagement, inconsistent branding, and poor lead conversion despite active posting and regular promotions.",
     strategy: "Rebuilt their content structure, aligned messaging with the right audience, and introduced a funnel-based paid ad strategy.",
     execution: ["Rebranded social visuals and messaging","Introduced a weekly content production system","Launched targeted Facebook and Instagram ads","Optimized landing pages for lead conversion"],
-    metrics: [{ value: "300%", label: "Engagement" },{ value: "2,400+", label: "Leads" },{ value: "8,500+", label: "Followers" }],
+    metrics: [{ value: "300%", label: "Engagement" },{ value: "2,400+", label: "Leads" },{ value: "420%+", label: "Follower Growth" }],
     takeaway: "Structured strategy transformed their social media into a reliable lead-generation system.",
     cta: "Get Results Like This"
   },
